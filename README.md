@@ -12,4 +12,4 @@ Please do the following to run the project:
 
 Contacts Summary:
 
-This is the project for tilr recruitment test. The following is made with React, with a backend of node.js, with design features of antd and some css.
+This is the project for tilr. The following is made with React, with a backend of node.js, with design features of antd and some css.
