@@ -1,3 +1,3 @@
-const ip = "input your ip address as a string";
+const ip = "http://10.10.10.215";
 
 exports.ip = ip;

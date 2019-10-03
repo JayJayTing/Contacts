@@ -26,7 +26,7 @@ class ContactTable extends React.Component {
 	componentDidMount = () => {
 		console.log(this.state);
 		axios
-			.get(`http://192.168.2.41:3001/contacts`)
+			.get(`${ip}:3001/contacts`)
 			.then(res => {
 				this.setState({ ...this.state, data: res.data });
 				console.log(res.data);
@@ -133,8 +133,7 @@ class ContactTable extends React.Component {
 									})
 
 									.catch(err => console.log(err));
-							}}
-						>
+							}}>
 							Delete
 						</Button>
 					</span>
